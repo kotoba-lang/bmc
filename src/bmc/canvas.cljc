@@ -8,7 +8,7 @@
    `layer-labels` display map are all supplied by the caller. `index`/`fold`/
    `apply-event`/`conj-item`/render-* operate purely on the `idx`/`product`/
    `events` args passed in."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [clojure.edn :as edn]
                :cljs [cljs.reader :as edn])
             #?(:cljs [bmc.io :as io])))

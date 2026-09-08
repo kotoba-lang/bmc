@@ -8,7 +8,7 @@
    bmc.cli-core need (file exists?/parent/mkdirs, slurp, spit, spit-append,
    getenv, exit). :clj call sites use java.io.File / core slurp / core spit
    directly instead (no shim needed on the JVM)."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 #?(:cljs
    (do

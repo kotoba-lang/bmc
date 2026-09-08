@@ -18,7 +18,7 @@
      the solution block (actionable to-do) and record the gate as :blocked.
 
    Pure .cljc; io stays in the consumer's cli/collect layer."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [bmc.canvas :as canvas]))
 
 ;; ---- predicate evaluation ---------------------------------------------------

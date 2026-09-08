@@ -8,7 +8,7 @@
     :event/type :canvas/add-item|:canvas/retract-item|:canvas/note|:hyp/status
                 |:react/observation|:react/thought|:governor/rejected
     :canvas/id … :hyp/id … :event/value … :event/evidence … :event/reason … :event/tick …}"
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             #?(:clj [clojure.edn :as edn]
                :cljs [cljs.reader :as edn])
             #?(:cljs [bmc.io :as io])))
