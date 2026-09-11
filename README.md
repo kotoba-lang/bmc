@@ -61,7 +61,7 @@ only implements the evaluator half, not any concrete product's gates.
 ## Test
 
 ```
-clojure -M:test
+kbb -M:test
 ```
 
 (No test sources exist yet — see "Known gap" above.)
