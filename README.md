@@ -46,10 +46,10 @@ unverified WIP, not a hardened dependency, until that gap is closed.
 ## Modules
 
 ```
-src/bmc/canvas.cljc   # datoms index / event fold / md·text·EDN render (pure .cljc)
-src/bmc/ledger.cljc   # append-only ledger — 1 EDN event per line (read/append)
-src/bmc/gate.cljc     # gate evaluator: metrics -> hypothesis status proposals
-src/bmc/io.cljc       # minimal :cljs (nbb) fs/env bridge; :clj call sites use
+src/bmc/canvas.cljk   # datoms index / event fold / md·text·EDN render (pure .cljc)
+src/bmc/ledger.cljk   # append-only ledger — 1 EDN event per line (read/append)
+src/bmc/gate.cljk     # gate evaluator: metrics -> hypothesis status proposals
+src/bmc/io.cljk       # minimal :cljs (nbb) fs/env bridge; :clj call sites use
                       # java.io.File / core slurp / core spit directly
 ```
 
